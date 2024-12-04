@@ -1,0 +1,10 @@
+{
+    "base_dir": "/Users/meisen/Desktop/xianzhuxingfenxi/webqa",
+    "baseline_trecs": ["new_clip_dpr.trec", "new_univl_dpr.trec", "new_marvel_dpr.trec"],
+    "new_model_trecs": ["new_marvel_ance.trec"],
+
+    "metric_name": "ndcg_cut.10",
+    "qrels": "/Users/meisen/Desktop/xianzhuxingfenxi/webqa/test_qrels.qrel",
+    "trec_eval_path": "/usr/local/bin/trec_eval",
+    "markers": ["\\dagger", "\\ddagger", "\\mathsection", "\\mathparagraph"]
+}
